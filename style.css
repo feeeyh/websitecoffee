@@ -110,7 +110,8 @@ header .navbar {
 }
 
 .navbar .nav-menu {
-    display: none;
+    display: flex;
+    gap: 10px;
 }
 
 .navbar .nav-menu .nav-link {
@@ -522,15 +523,7 @@ header .navbar {
     }
 
     .navbar #menu-open-button {
-        font-size: var(--font-size-m);
-        background: none;
-        border: none;
-        cursor: pointer;
         color: var(--white-color); 
-    }
-
-    .navbar #menu-open-button.active {
-        color: #ff6347;
     }
     
     .navbar .nav-menu {
